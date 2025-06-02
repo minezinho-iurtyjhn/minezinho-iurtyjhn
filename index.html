@@ -1,0 +1,153 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINEZINNHO</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.166.1/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.166.1/examples/jsm/"
+        }
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-title">
+                <img src="logo.png" alt="Logo do Servidor" id="logo">
+                <h1>MINEZINNHO</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#vips">VIPs</a></li>
+                    <li><a href="#novidades">Novidades</a></li>
+                    <li><a href="#comunidade">Comunidade</a></li>
+                    <li><a href="#" id="login-button-nav">Login</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h2>Bem-vindo ao MINEZINHO</h2>
+                <p>A aventura épica de Minecraft que você esperava!</p>
+                <div class="ip-container">
+                    <p class="ip-address">IP: EM BREVE</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div class="container">
+                <h2>Sobre o Servidor</h2>
+                <p>Bem-vindo ao Minezinho! Aqui você encontrará uma breve descrição do servidor, seus modos de jogo principais, e o que o torna único. Prepare-se para explorar mundos incríveis, construir obras-primas e fazer novos amigos!</p>
+                <p>Estamos trabalhando duro para trazer a melhor experiência para você. Fique ligado para mais atualizações!</p>
+            </div>
+        </section>
+
+        <section id="vips">
+            <div class="container">
+                <h2>Planos VIP</h2>
+                <p>Apoie o servidor e ganhe vantagens exclusivas!</p>
+                <div class="vip-grid">
+                    <div class="vip-card">
+                        <img src="vip_bronze.png" alt="VIP Bronze" class="vip-icon">
+                        <h3>VIP Bronze</h3>
+                        <p>Benefícios básicos para começar sua jornada VIP.</p>
+                        <ul>
+                            <li>Kit Bronze Mensal</li>
+                            <li>Tag [VIP] no chat</li>
+                            <li>Acesso a áreas exclusivas</li>
+                        </ul>
+                        <button class="vip-button">Saiba Mais</button>
+                    </div>
+                    <div class="vip-card">
+                        <img src="vip_prata.png" alt="VIP Prata" class="vip-icon">
+                        <h3>VIP Prata</h3>
+                        <p>Mais vantagens e recursos para aprimorar sua experiência.</p>
+                        <ul>
+                            <li>Kit Prata Mensal</li>
+                            <li>Tag [VIP+] colorida</li>
+                            <li>Prioridade na fila</li>
+                            <li>Comandos Especiais</li>
+                        </ul>
+                        <button class="vip-button">Saiba Mais</button>
+                    </div>
+                    <div class="vip-card">
+                        <img src="vip_ouro.png" alt="VIP Ouro" class="vip-icon">
+                        <h3>VIP Ouro</h3>
+                        <p>O pacote supremo com todos os benefícios!</p>
+                        <ul>
+                            <li>Kit Ouro Mensal</li>
+                            <li>Tag [VIP++] customizável</li>
+                            <li>Acesso a todos os cosméticos</li>
+                            <li>Suporte prioritário</li>
+                        </ul>
+                        <button class="vip-button">Saiba Mais</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="novidades">
+            <div class="container">
+                <h2>Últimas Novidades</h2>
+                <div class="news-item">
+                    <h3>Grande Abertura em Breve!</h3>
+                    <p><em>Postado em: DD/MM/AAAA</em></p>
+                    <p>Estamos finalizando os últimos preparativos para a inauguração do servidor! Fique de olho em nosso Discord para a data oficial.</p>
+                </div>
+                <div class="news-item">
+                    <h3>Novos Modos de Jogo Anunciados</h3>
+                    <p><em>Postado em: DD/MM/AAAA </em></p>
+                    <p>SURVIVAL|PVP </p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="comunidade">
+            <div class="container">
+                <h2>Junte-se à Nossa Comunidade</h2>
+                <p>Conecte-se com outros jogadores, participe de eventos e fique por dentro de todas as novidades!</p>
+                <div class="social-links">
+                    <a href="https://discord.gg/9YqYh2ae8s"
+                   class="social-button discord" target="_blank" rel="noopener"
+                    noreferrer"><i class="fab fa-discord"></i> Discord</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Mineziho. Todos os direitos reservados.</p>
+            <p>Minecraft é uma marca registrada da Mojang Synergies AB.</p>
+        </div>
+    </footer>
+
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Login</h2>
+            <p>Conecte-se para acessar recursos exclusivos!</p>
+            <button class="login-provider-button discord-login">
+                <i class="fab fa-discord"></i> Entrar com Discord
+            </button>
+            <button class="login-provider-button google-login">
+                <i class="fab fa-google"></i> Entrar com Google
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
