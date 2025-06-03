@@ -19,7 +19,7 @@
     <header>
         <div class="container">
             <div class="logo-title">
-                <img src="logo.png" alt="Logo do Servidor" id="logo">
+                <img src="logo.png.png" alt="Logo do Servidor" id="logo">
                 <h1>MINEZINNHO</h1>
             </div>
             <nav>
@@ -56,7 +56,7 @@
 
         <section id="vips">
             <div class="container">
-                <h2>Planos VIP</h2>
+                <h2>Planos VIP EM BREVE</h2>
                 <p>Apoie o servidor e ganhe vantagens exclusivas!</p>
                 <div class="vip-grid">
                     <div class="vip-card">
@@ -107,7 +107,7 @@
                     <p>Estamos finalizando os últimos preparativos para a inauguração do servidor! Fique de olho em nosso Discord para a data oficial.</p>
                 </div>
                 <div class="news-item">
-                    <h3>Novos Modos de Jogo Anunciados</h3>
+                    <h3>Novos Modos de Jogo Anunciadosf</h3>
                     <p><em>Postado em: DD/MM/AAAA </em></p>
                     <p>SURVIVAL|PVP </p>
                 </div>
@@ -151,3 +151,20 @@
     <script src="script.js"></script>
 </body>
 </html>
+<!-- Firebase SDKs -->
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+<script>
+  const firebaseConfig = {
+    apiKey: "SUA_API_KEY_AQUI",
+    authDomain: "SEU_DOMINIO.firebaseapp.com",
+    projectId: "SEU_PROJECT_ID",
+    storageBucket: "SEU_BUCKET.appspot.com",
+    messagingSenderId: "SEU_SENDER_ID",
+    appId: "SEU_APP_ID"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+  const auth = firebase.auth();
+</script>
+<script src="script.js"></script>

@@ -178,7 +178,7 @@ section h2 {
     color: var(--color-primary);
     font-size: 2rem;
     margin-bottom: 40px;
-    text-shadow: 2px 2px #1a1a1a;
+    text-shadow: 2px 2pxrgb(4, 250, 53);
 }
 
 #sobre {
